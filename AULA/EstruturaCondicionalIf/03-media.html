@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Média Aluno - Estrutura Condicional If</title>
+	<style>
+		h1{
+			color:#5badff;
+			text-shadow:1px 1px 1px black;
+			font-family:arial,sans-serif;
+			font-size:25pt;
+		}
+		form{
+			font-family:arial,sans-serif;
+			font-size:12pt;
+		}
+		input{
+			margin:5px;
+		}
+		.botao{
+			font-family:arial,sans-serif;
+			font-size:14pt;
+			color:white;
+			background:#009191;
+			border:0px;
+			padding:10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Calcular Média</h1>
+	<form method="get" action="03-media.php">
+		<label for="in1">Nota 1:</label>
+		<input type="number" name="n1" id="in1" step="0.5" placeholder="Primeira Nota"/><br/>
+		<label for="in2">Nota 2:</label>
+		<input type="number" name="n2" id="in2" step="0.5" placeholder="Segunda Nota"/><br/>
+		<input type="submit" value="Calcular Média" class="botao"/>
+	</form>
+</body>
+</html>

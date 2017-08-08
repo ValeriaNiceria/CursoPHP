@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Estrutura de Repetição While - Contador Personalizável</title>
+	<style>
+		body{
+			font-family:arial,sans-serif;
+			font-size:13pt;
+		}
+		h1{
+			color:#0080ff;
+			text-shadow:1px 1px 1px black;
+			font-size:24pt;
+			font-family:arial,sans-serif;
+		}
+		h2{
+			color:#000040;
+			text-shadow:1px 1px 1px black;
+			font-size:18pt;
+			font-family:arial,sans-serif;
+		}
+		input{
+			margin:5px;
+		}
+		.botao{
+			background:#0071e1;
+			color:white;
+			border:0px;
+			font-size:14pt;
+			padding:6px;			
+		}
+	</style>
+</head>
+	<h1>Estrutura de Repetição While</h1>
+	<h2>Contador Personalizável</h2>
+	<form method="get" action="03-exercicio.php">
+		<label for="ii">Início:</label>
+		<input type="number" name="i" id="ii"/><br/>
+		<label for="if">Final:</label>
+		<input type="number" name="f" id="if"/><br/>
+		<label for="iin">Incremento:</label>
+		<select name="in" id="iin">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select><br/>
+		<input type="submit" value="Contar" class="botao"/>
+	</form>
+</html>

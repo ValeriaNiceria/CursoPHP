@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Estrutura Condicional Switch - Ir para Escola</title>
+	<style>
+		h1{
+			color:#0080ff;
+			text-shadow:1px 1px 1px black;
+			font-family: arial, sans-serif;
+			font-size:24pt;
+		}
+		h2{
+			color:#000040;
+			text-shadow:1px 1px 1px black;
+			font-family:arial,sans-serif;
+			font-size:18pt;
+		}
+		fieldset{
+			width:750px;
+		}
+		.botao{
+			background:#0080ff;
+			color:white;
+			font-size:13pt;
+			font-family:arial,sans-serif;
+			border:0px;
+			padding:8px;
+		}
+	</style>
+</head>
+	<h1>Estrutura Condicional Switch</h1>
+	<h2>Ir para Escola</h2>
+	<form method="get" action="02-escola.php">
+		<fieldset>	
+			<legend>Dia da Semana:</legend>
+			<input type="radio" name="sem" id="dom" value="1"/>
+			<label for="dom">Domingo</label>
+			<input type="radio" name="sem" id="seg" value="2"/>
+			<label for="seg">Segunda-Feira</label>
+			<input type="radio" name="sem" id="ter" value="3"/>
+			<label for="ter">Terça-Feira</label>
+			<input type="radio" name="sem" id="qua" value="4"/>
+			<label for="qua">Quarta-Feira</label>
+			<input type="radio" name="sem" id="qui" value="5"/>
+			<label for="qui">Quinta-Feira</label>
+			<input type="radio" name="sem" id="sex" value="6"/>
+			<label for="sex">Sexta-Feira</label>
+			<input type="radio" name="sem" id="sab" value="7"/>
+			<label for="sab">Sábado</label>
+		</fieldset>
+		<br/>
+		<input type="submit" value="Verificar" class="botao">
+	</form>
+</html>

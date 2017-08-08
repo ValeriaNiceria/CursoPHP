@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Estrutura Switch - Operação</title>
+	<style>
+		h1{
+			color:#2894ff;
+			text-shadow:1px 1px 1px black;
+			font-family:arial,sans-serif;
+			font-size:24pt;
+		}
+		input{
+			margin:5px;
+		}
+		label{
+			font-family:arial,sans-serif;
+		}
+		.botao{
+			background:#48aec8;
+			border:0px;
+			color:white;
+			font-size:15pt;
+			font-family:arial,sans-serif;
+			padding:10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Escolha Operação</h1>
+		<form method="get" action="01-operacao.php">
+		<label for="in">Número:</label>
+		<input type="number" step="0.01" name="n" id="in"/><br/>
+		<label for="ie">Escolha Operação:</label>
+		<select name="e" id="ie">
+			<option value="1">Dobro</option>
+			<option value="2">Cubo</option>
+			<option value="3">Raíz Quadrada</option>
+		</select><br/>
+		<input type="submit" value="Calcular" class="botao"/>
+	</form>
+	
+</body>
+</html>

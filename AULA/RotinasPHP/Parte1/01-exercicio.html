@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Soma - Rotinas em PHP</title>
+	<style>
+		body{
+			font-family:arial,sans-serif;
+		}
+		div#cabecalho{
+			text-shadow: 1px 1px 1px black;
+		}
+		div#cabecalho h1{
+			color:#0080ff;
+		}
+		div#cabecalho h2{
+			color:#000080;
+		}
+		h3 {
+			font-weight:normal;
+		}
+		form{
+			line-height:40px;
+		}
+		.botao{
+			background:#0080ff;
+			color:white;
+			border:0px;
+			padding:4px;
+			font-size:14pt;
+		}		
+	</style>
+</head>
+<body>
+	<div id="cabecalho">
+	<h1>Rotinas em PHP (Procedimento)</h1>
+	<h2>Soma</h2>
+	</div>
+	<h3>Criar um procedimento que some dois valores númericos inteiros:</h3>
+	<form method="get" action="01-exercicio.php">
+		<label for="in1">1° Número:</label>
+		<input type="number" step="0.01" min="0" max="9999" id="in1" name="n1"/> <br/>
+		<label for="in2">2° Número:</label>
+		<input type="number" step="0.01" min="0" max="9999" id="in2" name="n2"/> <br/>
+		<input type="submit" value="Somar" class="botao"/>
+	</form>
+</body>
+</html
